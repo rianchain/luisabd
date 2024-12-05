@@ -1,5 +1,5 @@
-import React from 'react';
-import { HeartHandshake } from 'lucide-react';
+import React from "react";
+import { HeartHandshake } from "lucide-react";
 
 export function Message() {
   return (
@@ -10,13 +10,14 @@ export function Message() {
           To My Beautiful Girlfriend
         </h2>
         <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-          Every moment with you feels like a gift, and on your special day, I want to celebrate 
-          all the joy and love you bring into my life. Your smile brightens my darkest days, 
-          and your love makes every moment magical. Here's to many more years of creating 
-          beautiful memories together.
+          Every moment with you feels like a gift, and on your special day, I
+          want to celebrate all the joy and love you bring into my life. Your
+          smile brightens my darkest days, and your love makes every moment
+          magical. Here's to many more years of creating beautiful memories
+          together.
         </p>
         <p className="mt-8 text-xl font-semibold text-pink-600">
-          Happy Birthday, My Love! ❤️
+          Happy Birthday Luisa, My Love! ❤️
         </p>
       </div>
     </div>
