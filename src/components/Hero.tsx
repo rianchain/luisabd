@@ -7,7 +7,8 @@ export function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center z-0 blur-sm"
         style={{
-          backgroundImage: 'url("/public/photos/2hero.jpg")',
+          backgroundImage:
+            'url("https://res.cloudinary.com/dyjygfrkh/image/upload/v1733416455/2hero_g8zsnz.jpg")',
         }}
       />
       <div className="absolute inset-0 bg-black/30 z-10" />
