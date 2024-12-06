@@ -10,7 +10,7 @@ const slides = [
   },
   {
     image:
-      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733496393/photo_2024-12-06_21-46-14_lsmek4.jpg",
+      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502424/photo_2024-12-06_23-25-48_ytkki5.jpg",
     title: "Adventures & Smiles",
     description: "Creating memories that last forever",
   },
