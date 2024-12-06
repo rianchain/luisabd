@@ -35,7 +35,7 @@ const memories = [
   {
     id: 6,
     image:
-      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502424/photo_2024-12-06_23-25-48_ytkki5.jpg",
+      "",
     caption: "Picnic in the Park",
   },
 ];
