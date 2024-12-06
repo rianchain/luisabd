@@ -29,13 +29,13 @@ const memories = [
   {
     id: 5,
     image:
-      "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=800",
+      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502421/photo_2024-12-06_23-25-40_mvljvn.jpg",
     caption: "Movie Night",
   },
   {
     id: 6,
     image:
-      "https://images.unsplash.com/photo-1518599807935-37015b9cefcb?auto=format&fit=crop&w=800",
+      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502424/photo_2024-12-06_23-25-48_ytkki5.jpg",
     caption: "Picnic in the Park",
   },
 ];
