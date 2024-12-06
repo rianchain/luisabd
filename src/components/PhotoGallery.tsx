@@ -23,7 +23,7 @@ const memories = [
   {
     id: 4,
     image:
-      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502422/photo_2024-12-06_23-25-50_tthxsu.jpg",
+      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502420/photo_2024-12-06_23-25-38_gor585.jpg",
     caption: "Weekend Adventures",
   },
   {
