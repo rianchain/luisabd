@@ -1,22 +1,25 @@
-import React, { useEffect, useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useEffect, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1518599807935-37015b9cefcb?auto=format&fit=crop&w=1200",
+    image:
+      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733496393/photo_2024-12-06_21-46-14_lsmek4.jpg",
     title: "Our Journey Together",
-    description: "Every moment with you is a treasure"
+    description: "Every moment with you is a treasure",
   },
   {
-    image: "https://images.unsplash.com/photo-1516589091380-5d8e21be1859?auto=format&fit=crop&w=1200",
+    image:
+      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733496393/photo_2024-12-06_21-46-14_lsmek4.jpg",
     title: "Adventures & Smiles",
-    description: "Creating memories that last forever"
+    description: "Creating memories that last forever",
   },
   {
-    image: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1200",
+    image:
+      "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1200",
     title: "Love & Laughter",
-    description: "The best is yet to come"
-  }
+    description: "The best is yet to come",
+  },
 ];
 
 export function Slideshow() {
@@ -29,7 +32,8 @@ export function Slideshow() {
     return () => clearInterval(timer);
   }, []);
 
-  const prev = () => setCurrent((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
+  const prev = () =>
+    setCurrent((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
   const next = () => setCurrent((curr) => (curr + 1) % slides.length);
 
   return (
@@ -38,7 +42,7 @@ export function Slideshow() {
         <div
           key={index}
           className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            index === current ? 'opacity-100' : 'opacity-0'
+            index === current ? "opacity-100" : "opacity-0"
           }`}
         >
           <div
@@ -55,7 +59,7 @@ export function Slideshow() {
           </div>
         </div>
       ))}
-      
+
       <button
         onClick={prev}
         className="absolute left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
