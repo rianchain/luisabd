@@ -5,7 +5,7 @@ const memories = [
   {
     id: 1,
     image:
-      "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800",
+      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502420/photo_2024-12-06_23-25-45_ajuwqz.jpg",
     caption: "Our First Date",
   },
   {
@@ -16,8 +16,7 @@ const memories = [
   },
   {
     id: 3,
-    image:
-      "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=800",
+    image: "",
     caption: "Coffee Shop Memories",
   },
   {
