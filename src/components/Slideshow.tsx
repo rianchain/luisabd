@@ -16,7 +16,7 @@ const slides = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1200",
+      "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733505776/photo_2024-12-07_00-22-44_mqjjdb.jpg",
     title: "Love & Laughter",
     description: "The best is yet to come",
   },
