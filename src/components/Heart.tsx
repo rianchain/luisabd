@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../Heart.css";
+import "../Heart.css"; // Pastikan untuk membuat file CSS ini
 
 interface HeartProps {
   x: number;
@@ -14,9 +14,10 @@ const Heart: React.FC<HeartProps> = ({ x, y }) => {
     heart.style.top = `${y}px`;
     document.body.appendChild(heart);
 
+    // Menghilangkan hati setelah 1 detik
     const timer = setTimeout(() => {
       heart.remove();
-    }, 1000);
+    }, 100);
 
     return () => clearTimeout(timer);
   }, [x, y]);
