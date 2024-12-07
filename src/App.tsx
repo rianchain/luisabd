@@ -21,6 +21,7 @@ function App() {
       <Message />
       {/* <Slideshow /> */}
       <PhotoGallery />
+      <Heart x={position.x} y={position.y} /> {/* Menambahkan komponen Heart */}
     </div>
   );
 }
