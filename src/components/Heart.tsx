@@ -12,6 +12,7 @@ const Heart: React.FC<HeartProps> = ({ x, y }) => {
     heart.classList.add("heart");
     heart.style.left = `${x}px`;
     heart.style.top = `${y}px`;
+    heart.style.pointerEvents = "none";
     document.body.appendChild(heart);
 
     // Menghilangkan hati setelah 1 detik

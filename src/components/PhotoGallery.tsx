@@ -6,31 +6,31 @@ const memories = [
     id: 1,
     image:
       "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733504708/photo_2024-12-07_00-04-42_k7rspr.jpg",
-    caption: "Our First Date",
+    caption: "Picnic Date",
   },
   {
     id: 2,
     image:
       "https://res.cloudinary.com/dyjygfrkh/image/upload/v1733416455/2hero_g8zsnz.jpg",
-    caption: "Our Polaroid Collection",
+    caption: "Polaroid Collection",
   },
   {
     id: 3,
     image:
       "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502420/photo_2024-12-06_23-25-45_ajuwqz.jpg",
-    caption: "Coffee Shop Memories",
+    caption: "",
   },
   {
     id: 4,
     image:
       "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502420/photo_2024-12-06_23-25-38_gor585.jpg",
-    caption: "Weekend Adventures",
+    caption: "Art Dating",
   },
   {
     id: 5,
     image:
       "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502421/photo_2024-12-06_23-25-40_mvljvn.jpg",
-    caption: "Movie Night",
+    caption: "Food Court Hunt",
   },
   {
     id: 6,
