@@ -17,7 +17,7 @@ const Heart: React.FC<HeartProps> = ({ x, y }) => {
     // Menghilangkan hati setelah 1 detik
     const timer = setTimeout(() => {
       heart.remove();
-    }, 100);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, [x, y]);
