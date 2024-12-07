@@ -5,7 +5,7 @@
   height: 20px;
   background-color: red;
   transform: rotate(45deg);
-  animation: pulse 0.5s ease-in-out;
+  animation: pulse 0.5s ease-in-out, fadeOut 1s forwards; /* Menambahkan animasi fadeOut */
 }
 
 .heart:before,
@@ -37,5 +37,14 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
