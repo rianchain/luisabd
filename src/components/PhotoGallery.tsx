@@ -18,7 +18,7 @@ const memories = [
     id: 3,
     image:
       "https://res.cloudinary.com/dkemzm4ju/image/upload/v1733502420/photo_2024-12-06_23-25-45_ajuwqz.jpg",
-    caption: "",
+    caption: "Time Together",
   },
   {
     id: 4,
