@@ -11,6 +11,10 @@ function App() {
     y: 0,
   });
 
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    setPosition({ x: e.pageX, y: e.pageY });
+  };
+
   return (
     <div className="min-h-screen">
       <Hero />
